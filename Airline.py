@@ -23,6 +23,8 @@ class Airline(gym.Env):
         return (self.left_c, self.left_t)
 
     def step(self, action):
+        assert isinstance(action, int)
+
         order = self.demmand_func(self.left_t, action)
         #terminal
         if (self.left_c - order) <= 0 or self.i == len(self.time)-1:

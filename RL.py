@@ -15,8 +15,8 @@ class Q_lam():
 
         self.q_table = pd.DataFrame(0, columns=columns, index=index)
         self.e_table = pd.DataFrame(0, columns=columns, index=index)
-        print(self.q_table)
-        print(self.e_table)
+        # print(self.q_table)
+        # print(self.e_table)
     def e_greedy(self, s):
         # s[1]表示剩余座位，s[2]表示剩余售票时间
         # exploitation
@@ -32,23 +32,25 @@ class Q_lam():
 
     def learn(self, done, s, a, r, s_, alpha):
         if done:
-            q_target = r
+            Q_target = r
+            a_best = a
         else:
             Q_values = self.q_table.loc[s_, :]
             Q_values = Q_values.reindex(np.random.permutation(Q_values.index))
             a_best = Q_values.argmax()
-
             Q_target = r + self.gamma * self.q_table.loc[s_, a_best]
-            TD_error = Q_target - self.q_table.loc[s,a]
 
-            self.e_table.loc[s,a] = 1
+        TD_error = Q_target - self.q_table.loc[s,a]
 
-            self.q_table = self.q_table + alpha * self.e_table * TD_error
+        assert isinstance(self.e_table, pd.DataFrame)
+        self.e_table.loc[s,a] = 1
 
-            a_ = self.e_greedy(s_)
-            if a_ == a_best:
-                self.e_table = self.lam * self.e_table
-            else:
-                self.e_table = 0
+        self.q_table = self.q_table + alpha * self.e_table * TD_error
+
+        a_ = self.e_greedy(s_)
+        if a_ == a_best:
+            self.e_table *= self.lam
+        else:
+            self.e_table = 0
 
         return s_, a_

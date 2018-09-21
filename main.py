@@ -4,7 +4,7 @@ from Airline import *
 from Q_lam import *
 
 if __name__ == '__main__':
-    # block-1 initial
+    # initial
     capacity = 10
     times = np.array([5, 4, 3, 2, 1])
     states = []
@@ -18,11 +18,13 @@ if __name__ == '__main__':
     RL = Q_lam(states, actions)
     iter_times = 1000
 
-    # block-2 iteration
+    # block-1 iteration
     for i in range(iter_times + 1):
+        RL.e_table[:] = 0
         s = env.reset()
         a = np.random.choice(actions)
 
+        # block-2 episodes
         while True:
             s_, r, done, info = env.step(a)
 

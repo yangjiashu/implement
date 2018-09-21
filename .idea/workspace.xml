@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/RL.py" line="16" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="b573ed8e-33b8-46e8-9042-f5ba7cd71548" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Q_lam.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/implement.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/implement.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airline.py" beforeDir="false" afterPath="$PROJECT_DIR$/Airline.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RL.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Q_lam.py" beforeDir="false" afterPath="$PROJECT_DIR$/Q_lam.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,14 +52,33 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-902994080">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="Python Console" value="318" />
+          <entry key="py" value="87" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="405" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Airline.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="53" selection-start-line="53" selection-end-line="53" />
+            <state relative-caret-position="370">
+              <caret line="36" column="23" lean-forward="true" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
               <folding>
                 <element signature="e#16#35#0" expanded="true" />
               </folding>
@@ -70,43 +86,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Q_lam.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="58" selection-start-line="58" selection-end-line="58" />
+            <state relative-caret-position="371">
+              <caret line="34" column="74" lean-forward="true" selection-start-line="34" selection-start-column="74" selection-end-line="34" selection-end-column="74" />
               <folding>
                 <element signature="e#24#42#0" expanded="true" />
-                <marker date="1537414710577" expanded="true" signature="78:79" ph="..." />
-                <marker date="1537414710577" expanded="true" signature="78:83" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Anaconda3/envs/'labenv'/Lib/site-packages/pandas/core/generic.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="4369" selection-start-line="4369" selection-end-line="4369" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Anaconda3/envs/'labenv'/Lib/site-packages/pandas/core/indexing.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="1463" selection-start-line="1463" selection-end-line="1463" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="155">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
               <folding>
                 <element signature="e#24#42#0" expanded="true" />
               </folding>
@@ -137,10 +133,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="302" />
-    <option name="y" value="7" />
-    <option name="width" value="854" />
-    <option name="height" value="1017" />
+    <option name="x" value="301" />
+    <option name="y" value="6" />
+    <option name="width" value="855" />
+    <option name="height" value="1018" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -148,12 +144,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -244,22 +241,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09589867" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.09577279" />
+      <window_info id="Structure" order="1" sideWeight="0.5021097" side_tool="true" weight="0.09577279" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32884398" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3939394" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32765958" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.37021276" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32884398" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32884398" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.33333334" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32765958" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.33333334" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32884398" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32765958" />
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -300,23 +298,28 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/main.py</url>
-          <line>26</line>
-          <option name="timeStamp" value="9" />
+          <line>24</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/main.py</url>
-          <line>30</line>
-          <option name="timeStamp" value="10" />
+          <line>28</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/main.py</url>
-          <line>31</line>
-          <option name="timeStamp" value="11" />
+          <line>32</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/main.py</url>
-          <line>37</line>
-          <option name="timeStamp" value="12" />
+          <line>33</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -402,60 +405,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/envs/'labenv'/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="308" selection-start-line="308" selection-end-line="308" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/envs/'labenv'/Lib/site-packages/pandas/core/frame.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="2687" selection-start-line="2687" selection-end-line="2687" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/'labenv'/Lib/codecs.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/envs/'labenv'/Lib/site-packages/pandas/core/frame.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/envs/'labenv'/Lib/site-packages/pandas/core/indexing.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/envs/'labenv'/Lib/site-packages/pandas/core/generic.py" />
     <entry file="file://$PROJECT_DIR$/Airline.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        <state relative-caret-position="370">
+          <caret line="36" column="23" lean-forward="true" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
           <folding>
             <element signature="e#16#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/envs/'labenv'/Lib/site-packages/pandas/core/indexing.py">
+    <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="1463" selection-start-line="1463" selection-end-line="1463" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/envs/'labenv'/Lib/site-packages/pandas/core/generic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="4369" selection-start-line="4369" selection-end-line="4369" />
+        <state relative-caret-position="155">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="e#24#42#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Q_lam.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-          <folding>
-            <element signature="e#24#42#0" expanded="true" />
-            <marker date="1537414710577" expanded="true" signature="78:79" ph="..." />
-            <marker date="1537414710577" expanded="true" signature="78:83" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="371">
+          <caret line="34" column="74" lean-forward="true" selection-start-line="34" selection-start-column="74" selection-end-line="34" selection-end-column="74" />
           <folding>
             <element signature="e#24#42#0" expanded="true" />
           </folding>
